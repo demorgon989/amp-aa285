@@ -1,0 +1,29 @@
+[Application]
+App.DisplayName=America's Army Operations 2.8.5
+App.RootDir=.
+App.WorkingDir=.
+App.ExecutableWin=Server.exe
+App.ExecutableLinux=wine
+App.CommandLineArgs=cmd /c Server.exe {{ServerMode}} {{MapName}} log={{LogFile}} ini={{IniFile}}
+App.AppSettings={"MapName": "Pipeline.aao", "ServerMode": "LAN", "LogFile": "server.log", "IniFile": "server-lan.ini"}
+App.HasWriteableConsole=false
+App.HasReadableConsole=true
+App.ExitMethod=Kill
+App.ApplicationPort1=1716
+App.MaxUsers=32
+App.AdminMethod=STDIO
+App.Compatibility=1
+App.UpdateSources=[{"UpdateStageName":"Download AA 2.8.5 Server","UpdateSourcePlatform":"All","UpdateSource":"FetchURL","UpdateSourceData":"https://github.com/yourusername/amp-aa285/releases/download/v1.0/aa285-server.zip","UnzipUpdateSource":true,"OverwriteExistingFiles":false}]
+
+[Console]
+Console.AppReadyRegex=^.*Listen.*$
+
+[Meta]
+Meta.DisplayName=America's Army Operations 2.8.5
+Meta.Author=YourName
+Meta.OS=2
+Meta.AppConfigId=a5e1d3f0-aa28-4a00-b000-000000000002
+Meta.URL=https://aao25.com
+Meta.ContainerPolicy=NoPreference
+Meta.ConfigRoot=americas-army-285
+Meta.ConfigManifest=americas-army-285config.json
