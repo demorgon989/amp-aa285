@@ -1,6 +1,6 @@
 [
   {
-    "ConfigFile": "./System/server.ini",
+    "ConfigFile": "server.ini",
     "AutoMap": true,
     "Importable": true,
     "ConfigType": "ini",
