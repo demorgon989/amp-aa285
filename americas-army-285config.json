@@ -75,6 +75,22 @@
     "Placeholder": "Name,Password",
     "EnumValues": {}
   },
+{
+  "DisplayName": "MOTD Display Time",
+  "Category": "America's Army 2.8.5",
+  "Subcategory": "Message of the Day:comment:2",
+  "Description": "How long, in seconds, the message of the day is displayed to joining players.",
+  "Keywords": "motd,message,display,time,seconds",
+  "FieldName": "MOTDDisplaySeconds",
+  "InputType": "number",
+  "IsFlagArgument": false,
+  "ParamFieldName": "Engine.GameReplicationInfo.MOTDDisplaySeconds",
+  "IncludeInCommandLine": false,
+  "DefaultValue": "10",
+  "MinValue": "1",
+  "MaxValue": "60",
+  "EnumValues": {}
+},
   {
   "DisplayName": "MOTD Line 1",
   "Category": "America's Army 2.8.5",
