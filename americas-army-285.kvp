@@ -25,8 +25,8 @@ App.WorkingDir=System
 App.ExecutableWin=Server.exe
 App.ExecutableLinux=/usr/bin/wine
 App.CommandLineArgs={{$PlatformArgs}}
-App.WindowsCommandLineArgs={{ServerMode}} {{MapName}} log={{LogFile}} ini={{IniFile}} {{ExtraArgs}}
-App.LinuxCommandLineArgs=Server.exe {{ServerMode}} {{MapName}} log={{LogFile}} ini={{IniFile}} {{ExtraArgs}}
+App.WindowsCommandLineArgs=LAN {{MapName}} log={{LogFile}} ini={{IniFile}} {{ExtraArgs}}
+App.LinuxCommandLineArgs=Server.exe LAN {{MapName}} log={{LogFile}} ini={{IniFile}} {{ExtraArgs}}
 App.MonitorChildProcessName=^.*Server\.exe.*$
 App.MonitorDirectChildOnly=False
 App.DumpFullChildProcessTree=True
