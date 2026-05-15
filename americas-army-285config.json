@@ -62,6 +62,21 @@
     "EnumValues": {}
   },
   {
+    "DisplayName": "Player Admin",
+    "Category": "America's Army 2.8.5",
+    "Subcategory": "Administration:shield:2",
+    "Description": "Optional player admin entry. Use Name,Password. Example: Demorgon,MySecretPass. To connect as player admin, open the AAO console and use: start SERVERIP?PAPassword=MySecretPass. Additional player admins can be added manually in System/server.ini with extra PlayerAdmin=Name,Password lines.",
+    "Keywords": "player admin,password,papassword,admin",
+    "FieldName": "PlayerAdmin",
+    "InputType": "password",
+    "IsFlagArgument": false,
+    "ParamFieldName": "PlayerAdmin",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "",
+    "Placeholder": "Name,Password",
+    "EnumValues": {}
+  },
+  {
     "DisplayName": "Extra Startup Arguments",
     "Category": "America's Army 2.8.5",
     "Subcategory": "Advanced:terminal:99",
@@ -75,20 +90,5 @@
     "DefaultValue": "",
     "Placeholder": "",
     "EnumValues": {}
-  },
-{
-  "DisplayName": "Player Admin",
-  "Category": "America's Army 2.8.5",
-  "Subcategory": "Administration:shield:2",
-  "Description": "Optional player admin entry. Use Name,Password. Example: Demorgon,MySecretPass. To connect as player admin, open the AAO console and use: start SERVERIP?PAPassword=MySecretPass. Additional player admins can be added manually in System/server.ini with extra PlayerAdmin=Name,Password lines.",
-  "Keywords": "player admin,password,papassword,admin",
-  "FieldName": "PlayerAdmin",
-  "InputType": "password",
-  "IsFlagArgument": false,
-  "ParamFieldName": "PlayerAdmin",
-  "IncludeInCommandLine": false,
-  "DefaultValue": "",
-  "Placeholder": "Name,Password",
-  "EnumValues": {}
-}
+  }
 ]
