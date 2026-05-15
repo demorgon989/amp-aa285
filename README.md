@@ -19,3 +19,9 @@ This package is intended for server use only, not as a full client install.
 Default game port:
 
 - UDP `1716`
+
+
+Unofficial community server package for America's Army Operations 2.8.5.
+Provided for preservation/server-hosting purposes.
+America's Army and related assets belong to their respective owners.
+Remove on request.
