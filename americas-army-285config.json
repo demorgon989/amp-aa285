@@ -1,7 +1,7 @@
 [
   {
     "DisplayName": "Server Mode",
-    "Category": "America's Army 2.8.5:crosshairs",
+    "Category": "America's Army 2.8.5",
     "Subcategory": "Startup:play:1",
     "Description": "Launch mode passed to Server.exe. LAN is safest for self-hosted/private servers.",
     "Keywords": "server,mode,lan,global,public",
