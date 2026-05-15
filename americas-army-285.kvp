@@ -5,6 +5,7 @@ Meta.Arch=x86_64
 Meta.Author=demorgon989
 Meta.URL=https://www.aao285.com/
 Meta.ConfigRoot=americas-army-285.kvp
+Meta.MetaConfigManifest=americas-army-285metaconfig.json
 Meta.ConfigManifest=americas-army-285config.json
 Meta.PortsManifest=americas-army-285ports.json
 Meta.MinAMPVersion=2.4.0.0
