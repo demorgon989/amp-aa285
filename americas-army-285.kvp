@@ -30,7 +30,7 @@ App.LinuxCommandLineArgs=Server.exe LAN {{MapName}} log={{LogFile}} ini={{IniFil
 App.MonitorChildProcessName=^.*Server\.exe.*$
 App.MonitorDirectChildOnly=False
 App.DumpFullChildProcessTree=True
-App.AppSettings={"ServerMode":"LAN","MapName":"Pipeline.aao","IniFile":"server.ini","LogFile":"server.log","ExtraArgs":"","PlayerAdmin":"","ServerName":"America's Army Server","ShortName":"AA Server","MaxPlayers":"26"}
+App.AppSettings={"MapName":"Pipeline.aao","IniFile":"server.ini","LogFile":"server.log","ExtraArgs":"","PlayerAdmin":"","ServerName":"America's Army Server","ShortName":"AA Server","MaxPlayers":"26","MOTDLine1":"Welcome to America's Army","MOTDLine2":"","MOTDLine3":"","MOTDLine4":""}
 App.AdminMethod=STDIO
 App.HasReadableConsole=True
 App.HasWriteableConsole=True
