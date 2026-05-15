@@ -30,7 +30,7 @@ App.LinuxCommandLineArgs=cmd /c Server.exe {{ServerMode}} {{MapName}} log={{LogF
 App.AppSettings={"ServerMode":"LAN","MapName":"Pipeline.aao","IniFile":"server.ini","LogFile":"server.log","ExtraArgs":""}
 App.AdminMethod=STDIO
 App.HasReadableConsole=True
-App.HasWritableConsole=False
+App.HasWriteableConsole=True
 App.ApplicationReadyMode=Immediate
 App.ExitMethod=OS_CLOSE
 App.ExitTimeout=30
