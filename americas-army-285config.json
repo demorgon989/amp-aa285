@@ -18,7 +18,7 @@
   },
   {
     "DisplayName": "Map Name",
-    "Category": "America's Army 2.8.5:crosshairs",
+    "Category": "America's Army 2.8.5",
     "Subcategory": "Startup:play:1",
     "Description": "Map file to load on startup. Example: Pipeline.aao",
     "Keywords": "map,level,pipeline,bridge,insurgent camp",
@@ -33,7 +33,7 @@
   },
   {
     "DisplayName": "INI File",
-    "Category": "America's Army 2.8.5:crosshairs",
+    "Category": "America's Army 2.8.5",
     "Subcategory": "Startup:play:1",
     "Description": "Server INI file to use. Keep this as server.ini unless you know you created another INI.",
     "Keywords": "ini,config,server.ini",
@@ -48,7 +48,7 @@
   },
   {
     "DisplayName": "Log File",
-    "Category": "America's Army 2.8.5:crosshairs",
+    "Category": "America's Army 2.8.5",
     "Subcategory": "Startup:play:1",
     "Description": "Log file written by the AAO server.",
     "Keywords": "log,file,server.log",
@@ -63,7 +63,7 @@
   },
   {
     "DisplayName": "Extra Startup Arguments",
-    "Category": "America's Army 2.8.5:crosshairs",
+    "Category": "America's Army 2.8.5",
     "Subcategory": "Advanced:terminal:99",
     "Description": "Optional extra arguments appended to the Server.exe command line. Leave blank unless troubleshooting.",
     "Keywords": "extra,args,arguments,advanced",
@@ -78,7 +78,7 @@
   },
   {
     "DisplayName": "Admin Setup Note",
-    "Category": "America's Army 2.8.5:crosshairs",
+    "Category": "America's Army 2.8.5",
     "Subcategory": "Administration:shield:2",
     "Description": "Player administrator entries in server.ini must use the format Name,Password. Blank entries cause harmless startup warnings.",
     "Keywords": "admin,password,administrator,server.ini",
