@@ -1,36 +1,38 @@
-Meta.DisplayName=America's Army 285
-Meta.Description=America's Army Operations 2.8.5 Dedicated Server
+Meta.DisplayName=Americas Army 285
+Meta.Description=Americas Army Operations 2.8.5 Dedicated Server
 Meta.OS=Windows, Linux
 Meta.Arch=x86_64
 Meta.Author=demorgon989
 Meta.URL=https://www.aao285.com/
 Meta.ConfigRoot=americas-army-285.kvp
-Meta.MetaConfigManifest=americas-army-285metaconfig.json
 Meta.ConfigManifest=americas-army-285config.json
+Meta.MetaConfigManifest=americas-army-285metaconfig.json
 Meta.PortsManifest=americas-army-285ports.json
-Meta.MinAMPVersion=2.4.0.0
+Meta.MinAMPVersion=2.4.6.6
 Meta.ContainerPolicy=Supported
 Meta.ConfigReleaseState=NotSpecified
 Meta.NoCommercialUsage=False
 Meta.ConfigVersion=1
-Meta.AppConfigId=a5e1d3f0-aa28-4a00-b000-000000000002
+Meta.AppConfigId=0c21726b-1d01-487b-be54-7a185b81bfcf
 
-App.DisplayName=America's Army 285
+App.DisplayName=Americas Army 285
 App.RootDir=./americas-army-285/
 App.BaseDirectory=./americas-army-285/
 App.WorkingDir=System
 App.ExecutableWin=Server.exe
-App.ExecutableLinux=wine
-App.CommandLineArgs=cmd /c Server.exe {{ServerMode}} {{MapName}} log={{LogFile}} ini={{IniFile}}
-App.AppSettings={"MapName":"Pipeline.aao","ServerMode":"LAN","LogFile":"server.log","IniFile":"server.ini"}
-App.ExitMethod=Kill
-App.HasWriteableConsole=False
-App.HasReadableConsole=True
+App.ExecutableLinux=/usr/bin/wine
+App.CommandLineArgs={{$PlatformArgs}}
+App.WindowsCommandLineArgs=LAN Pipeline.aao log=server.log ini=server.ini
+App.LinuxCommandLineArgs=cmd /c Server.exe LAN Pipeline.aao log=server.log ini=server.ini
 App.AdminMethod=STDIO
+App.HasReadableConsole=True
+App.HasWritableConsole=False
+App.ApplicationReadyMode=Immediate
+App.ExitMethod=OS_CLOSE
 App.ApplicationIPBinding=0.0.0.0
-App.ApplicationPort1=1716
+App.PrimaryApplicationPortRef=GamePort1
 App.MaxUsers=32
-App.UpdateSources=[{"UpdateStageName":"Download AAO 2.8.5 Server","UpdateSourcePlatform":"All","UpdateSource":"FetchURL","UpdateSourceData":"https://github.com/demorgon989/amp-aa285/releases/download/aa285-server/aa285-server.zip","UnzipUpdateSource":true,"OverwriteExistingFiles":false}]
 App.Compatibility=None
-
-Console.AppReadyRegex=^.*Listen.*$
+App.EnvironmentVariables={"WINEPREFIX":"{{$FullRootDir}}.wine","WINEARCH":"win64","WINEDEBUG":"-all"}
+App.Ports=@IncludeJson[americas-army-285ports.json]
+App.UpdateSources=@IncludeJson[americas-army-285updates.json]
