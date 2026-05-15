@@ -15,7 +15,7 @@ Meta.ContainerPolicy=Supported
 Meta.SpecificDockerImage=cubecoders/ampbase:wine-stable
 Meta.ConfigReleaseState=NotSpecified
 Meta.NoCommercialUsage=False
-Meta.ConfigVersion=6
+Meta.ConfigVersion=7
 Meta.AppConfigId=0c21726b-1d01-487b-be54-7a185b81bfcf
 
 App.DisplayName=Americas Army Ops
@@ -30,7 +30,7 @@ App.LinuxCommandLineArgs=Server.exe {{ServerMode}} {{MapName}} log={{LogFile}} i
 App.MonitorChildProcessName=^.*Server\.exe.*$
 App.MonitorDirectChildOnly=False
 App.DumpFullChildProcessTree=True
-App.AppSettings={"ServerMode":"LAN","MapName":"Pipeline.aao","IniFile":"server.ini","LogFile":"server.log","ExtraArgs":"","PlayerAdmin":""}
+App.AppSettings={"ServerMode":"LAN","MapName":"Pipeline.aao","IniFile":"server.ini","LogFile":"server.log","ExtraArgs":"","PlayerAdmin":"","ServerName":"America's Army Server","ShortName":"AA Server","MaxPlayers":"26"}
 App.AdminMethod=STDIO
 App.HasReadableConsole=True
 App.HasWriteableConsole=True
