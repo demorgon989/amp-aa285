@@ -27,6 +27,7 @@ App.ExecutableLinux=/usr/bin/wine
 App.CommandLineArgs={{$PlatformArgs}}
 App.WindowsCommandLineArgs={{ServerMode}} {{MapName}} log={{LogFile}} ini={{IniFile}} {{ExtraArgs}}
 App.LinuxCommandLineArgs=cmd /c Server.exe {{ServerMode}} {{MapName}} log={{LogFile}} ini={{IniFile}} {{ExtraArgs}}
+App.AppSettings={"ServerMode":"LAN","MapName":"Pipeline.aao","IniFile":"server.ini","LogFile":"server.log","ExtraArgs":""}
 App.AdminMethod=STDIO
 App.HasReadableConsole=True
 App.HasWritableConsole=False
