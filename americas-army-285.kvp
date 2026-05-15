@@ -34,6 +34,7 @@ App.HasWriteableConsole=True
 App.ApplicationReadyMode=Immediate
 App.ExitMethod=OS_CLOSE
 App.ExitTimeout=30
+App.UseLinuxIOREDIR=False
 App.ApplicationIPBinding=0.0.0.0
 App.PrimaryApplicationPortRef=GamePort1
 App.MaxUsers=32
