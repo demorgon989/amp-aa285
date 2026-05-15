@@ -28,6 +28,8 @@ App.CommandLineArgs={{$PlatformArgs}}
 App.WindowsCommandLineArgs={{ServerMode}} {{MapName}} log={{LogFile}} ini={{IniFile}} {{ExtraArgs}}
 App.LinuxCommandLineArgs=cmd /c Server.exe {{ServerMode}} {{MapName}} log={{LogFile}} ini={{IniFile}} {{ExtraArgs}}
 App.MonitorChildProcessName=^.*Server\.exe.*$
+App.MonitorDirectChildOnly=False
+App.DumpFullChildProcessTree=True
 App.AppSettings={"ServerMode":"LAN","MapName":"Pipeline.aao","IniFile":"server.ini","LogFile":"server.log","ExtraArgs":"","PlayerAdmin":""}
 App.AdminMethod=STDIO
 App.HasReadableConsole=True
