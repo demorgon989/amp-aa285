@@ -76,33 +76,19 @@
     "Placeholder": "",
     "EnumValues": {}
   },
-  {
-    "DisplayName": "Player Admin Password",
-    "Category": "America's Army 2.8.5",
-    "Subcategory": "Administration:shield:2",
-    "Description": "Password used for Player Admin login. This writes to PlayerAdmin= in server.ini. To join as Player Admin, open the AAO console and use: start SERVERIP?PAPassword=YOURPASSWORD",
-    "Keywords": "player admin,password,papassword,admin",
-    "FieldName": "PlayerAdmin",
-    "InputType": "password",
-    "IsFlagArgument": false,
-    "ParamFieldName": "PlayerAdmin",
-    "IncludeInCommandLine": false,
-    "DefaultValue": "",
-    "Placeholder": "YourPlayerAdminPassword",
-    "EnumValues": {}
-  },
-  {
-    "DisplayName": "Player Admin Connect Command",
-    "Category": "America's Army 2.8.5",
-    "Subcategory": "Administration:shield:2",
-    "Description": "Info only. In the AAO console, connect as Player Admin with: start SERVERIP?PAPassword=YOURPASSWORD. Example: start 192.168.50.23?PAPassword=MySecretPass",
-    "Keywords": "player admin,connect,papassword,example",
-    "FieldName": "PlayerAdminConnectCommand",
-    "InputType": "text",
-    "IsFlagArgument": false,
-    "ParamFieldName": "PlayerAdminConnectCommand",
-    "IncludeInCommandLine": false,
-    "DefaultValue": "start SERVERIP?PAPassword=YOURPASSWORD",
-    "EnumValues": {}
-  }
+{
+  "DisplayName": "Player Admin",
+  "Category": "America's Army 2.8.5",
+  "Subcategory": "Administration:shield:2",
+  "Description": "Optional player admin entry. Use Name,Password. Example: Demorgon,MySecretPass. To connect as player admin, open the AAO console and use: start SERVERIP?PAPassword=MySecretPass. Additional player admins can be added manually in System/server.ini with extra PlayerAdmin=Name,Password lines.",
+  "Keywords": "player admin,password,papassword,admin",
+  "FieldName": "PlayerAdmin",
+  "InputType": "password",
+  "IsFlagArgument": false,
+  "ParamFieldName": "PlayerAdmin",
+  "IncludeInCommandLine": false,
+  "DefaultValue": "",
+  "Placeholder": "Name,Password",
+  "EnumValues": {}
+}
 ]
