@@ -17,6 +17,36 @@
     }
   },
   {
+  "DisplayName": "Server Name",
+  "Category": "America's Army 2.8.5",
+  "Subcategory": "Server Identity:server:2",
+  "Description": "Name of the server shown in the server browser.",
+  "Keywords": "server,name,browser",
+  "FieldName": "ServerName",
+  "InputType": "text",
+  "IsFlagArgument": false,
+  "ParamFieldName": "Engine.GameReplicationInfo.ServerName",
+  "IncludeInCommandLine": false,
+  "DefaultValue": "America's Army Server",
+  "Placeholder": "America's Army Server",
+  "EnumValues": {}
+  },
+  {
+  "DisplayName": "Short Server Name",
+  "Category": "America's Army 2.8.5",
+  "Subcategory": "Server Identity:server:2",
+  "Description": "Short server name used by some third-party server browsers.",
+  "Keywords": "server,short,name,browser",
+  "FieldName": "ShortName",
+  "InputType": "text",
+  "IsFlagArgument": false,
+  "ParamFieldName": "Engine.GameReplicationInfo.ShortName",
+  "IncludeInCommandLine": false,
+  "DefaultValue": "AA Server",
+  "Placeholder": "AA Server",
+  "EnumValues": {}
+  }, 
+  {
     "DisplayName": "Map Name",
     "Category": "America's Army 2.8.5",
     "Subcategory": "Startup:play:1",
