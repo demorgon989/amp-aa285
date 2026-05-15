@@ -20,7 +20,7 @@ Console.AppReadyRegex=^.*Listen.*$
 
 [Meta]
 Meta.DisplayName=America's Army Operations 2.8.5
-Meta.Author=Demorgon
+Meta.Author=demorgon989
 Meta.OS=2
 Meta.AppConfigId=a5e1d3f0-aa28-4a00-b000-000000000002
 Meta.URL=https://www.aao285.com/
