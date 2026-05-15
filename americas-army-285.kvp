@@ -1,7 +1,7 @@
 [Application]
 App.DisplayName=America's Army Operations 2.8.5
 App.RootDir=.
-App.WorkingDir=.
+App.WorkingDir=System
 App.ExecutableWin=Server.exe
 App.ExecutableLinux=wine
 App.CommandLineArgs=cmd /c Server.exe {{ServerMode}} {{MapName}} log={{LogFile}} ini={{IniFile}}
