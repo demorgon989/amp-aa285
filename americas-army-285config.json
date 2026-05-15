@@ -77,6 +77,20 @@
   "EnumValues": {}
   },
   {
+  "DisplayName": "Game Join Password",
+  "Category": "America's Army 2.8.5",
+  "Subcategory": "Administration:shield:2",
+  "Description": "Optional password required to join the server. Leave blank for no join password.",
+  "Keywords": "game,password,join,private",
+  "FieldName": "GamePassword",
+  "InputType": "password",
+  "IsFlagArgument": false,
+  "ParamFieldName": "Engine.AccessControl.GamePassword",
+  "IncludeInCommandLine": false,
+  "DefaultValue": "",
+  "EnumValues": {}
+  },
+  {
     "DisplayName": "Extra Startup Arguments",
     "Category": "America's Army 2.8.5",
     "Subcategory": "Advanced:terminal:99",
