@@ -25,7 +25,7 @@
     "FieldName": "IniFile",
     "InputType": "text",
     "Category": "Server",
-    "DefaultValue": "server-lan.ini"
+    "DefaultValue": "server.ini"
   },
   {
     "DisplayName": "Log File",
