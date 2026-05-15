@@ -15,7 +15,7 @@ Meta.ContainerPolicy=Supported
 Meta.SpecificDockerImage=cubecoders/ampbase:wine-stable
 Meta.ConfigReleaseState=NotSpecified
 Meta.NoCommercialUsage=False
-Meta.ConfigVersion=2
+Meta.ConfigVersion=3
 Meta.AppConfigId=0c21726b-1d01-487b-be54-7a185b81bfcf
 
 App.DisplayName=Americas Army 285
