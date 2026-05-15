@@ -5,7 +5,7 @@ App.WorkingDir=.
 App.ExecutableWin=Server.exe
 App.ExecutableLinux=wine
 App.CommandLineArgs=cmd /c Server.exe {{ServerMode}} {{MapName}} log={{LogFile}} ini={{IniFile}}
-App.AppSettings={"MapName": "Pipeline.aao", "ServerMode": "LAN", "LogFile": "server.log", "IniFile": "server-lan.ini"}
+App.AppSettings={"MapName": "Pipeline.aao", "ServerMode": "LAN", "LogFile": "server.log", "IniFile": "server.ini"}
 App.HasWriteableConsole=false
 App.HasReadableConsole=true
 App.ExitMethod=Kill
@@ -20,10 +20,10 @@ Console.AppReadyRegex=^.*Listen.*$
 
 [Meta]
 Meta.DisplayName=America's Army Operations 2.8.5
-Meta.Author=YourName
+Meta.Author=Demorgon
 Meta.OS=2
 Meta.AppConfigId=a5e1d3f0-aa28-4a00-b000-000000000002
-Meta.URL=https://aao25.com
+Meta.URL=https://www.aao285.com/
 Meta.ContainerPolicy=NoPreference
 Meta.ConfigRoot=americas-army-285
 Meta.ConfigManifest=americas-army-285config.json
