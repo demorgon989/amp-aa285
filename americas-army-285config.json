@@ -1,0 +1,38 @@
+[
+  {
+    "DisplayName": "Map",
+    "Description": "The .aao map file to load on startup.",
+    "FieldName": "MapName",
+    "InputType": "text",
+    "Category": "Server",
+    "DefaultValue": "Pipeline.aao"
+  },
+  {
+    "DisplayName": "Server Mode",
+    "Description": "LAN for local network, leave blank for internet.",
+    "FieldName": "ServerMode",
+    "InputType": "enum",
+    "Category": "Server",
+    "EnumValues": {
+      "LAN": "LAN",
+      "": "Internet"
+    },
+    "DefaultValue": "LAN"
+  },
+  {
+    "DisplayName": "Config INI",
+    "Description": "Server config ini file to use.",
+    "FieldName": "IniFile",
+    "InputType": "text",
+    "Category": "Server",
+    "DefaultValue": "server-lan.ini"
+  },
+  {
+    "DisplayName": "Log File",
+    "Description": "Log output filename.",
+    "FieldName": "LogFile",
+    "InputType": "text",
+    "Category": "Server",
+    "DefaultValue": "server.log"
+  }
+]
