@@ -25,8 +25,8 @@ App.WorkingDir=System
 App.ExecutableWin=Server.exe
 App.ExecutableLinux=/usr/bin/wine
 App.CommandLineArgs={{$PlatformArgs}}
-App.WindowsCommandLineArgs=LAN Pipeline.aao log=server.log ini=server.ini
-App.LinuxCommandLineArgs=cmd /c Server.exe LAN Pipeline.aao log=server.log ini=server.ini
+App.WindowsCommandLineArgs={{ServerMode}} {{MapName}} log={{LogFile}} ini={{IniFile}} {{ExtraArgs}}
+App.LinuxCommandLineArgs=cmd /c Server.exe {{ServerMode}} {{MapName}} log={{LogFile}} ini={{IniFile}} {{ExtraArgs}}
 App.AdminMethod=STDIO
 App.HasReadableConsole=True
 App.HasWritableConsole=False
