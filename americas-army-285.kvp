@@ -12,6 +12,7 @@ Meta.MetaConfigManifest=americas-army-285metaconfig.json
 Meta.PortsManifest=americas-army-285ports.json
 Meta.MinAMPVersion=2.4.6.6
 Meta.ContainerPolicy=Supported
+Meta.SpecificDockerImage=cubecoders/ampbase:wine-stable
 Meta.ConfigReleaseState=NotSpecified
 Meta.NoCommercialUsage=False
 Meta.ConfigVersion=1
