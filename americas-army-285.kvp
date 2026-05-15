@@ -5,7 +5,7 @@ Meta.Arch=x86_64
 Meta.Author=demorgon989
 Meta.URL=https://www.aao285.com/
 Meta.ConfigId=americas-army-285
-Meta.DisplayImageSource=url=https://raw.githubusercontent.com/demorgon989/amp-aa285/main/amp-aa285.png
+Meta.DisplayImageSource=url:https://raw.githubusercontent.com/demorgon989/amp-aa285/main/amp-aa285.png
 Meta.ConfigRoot=americas-army-285.kvp
 Meta.ConfigManifest=americas-army-285config.json
 Meta.MetaConfigManifest=americas-army-285metaconfig.json
