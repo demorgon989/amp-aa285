@@ -25,5 +25,5 @@ Meta.OS=2
 Meta.AppConfigId=a5e1d3f0-aa28-4a00-b000-000000000002
 Meta.URL=https://www.aao285.com/
 Meta.ContainerPolicy=NoPreference
-Meta.ConfigRoot=americas-army-285
+Meta.ConfigRoot=americas-army-285.kvp
 Meta.ConfigManifest=americas-army-285config.json
