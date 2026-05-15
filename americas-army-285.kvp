@@ -13,7 +13,7 @@ App.ApplicationPort1=1716
 App.MaxUsers=32
 App.AdminMethod=STDIO
 App.Compatibility=1
-App.UpdateSources=[{"UpdateStageName":"Download AA 2.8.5 Server","UpdateSourcePlatform":"All","UpdateSource":"FetchURL","UpdateSourceData":"https://github.com/yourusername/amp-aa285/releases/download/v1.0/aa285-server.zip","UnzipUpdateSource":true,"OverwriteExistingFiles":false}]
+App.UpdateSources=[{"UpdateStageName":"Download AA 2.8.5 Server","UpdateSourcePlatform":"All","UpdateSource":"FetchURL","UpdateSourceData":"https://github.com/demorgon989/amp-aa285/releases/download/aa285-server/aa285-server.zip","UnzipUpdateSource":true,"OverwriteExistingFiles":false}]
 
 [Console]
 Console.AppReadyRegex=^.*Listen.*$
