@@ -1,29 +1,35 @@
-[Application]
+Meta.DisplayName=America's Army Operations 2.8.5
+Meta.Description=America's Army Operations 2.8.5 Dedicated Server
+Meta.OS=Windows, Linux
+Meta.Arch=x86_64
+Meta.Author=demorgon989
+Meta.URL=https://www.aao285.com/
+Meta.ConfigRoot=americas-army-285.kvp
+Meta.ConfigManifest=americas-army-285config.json
+Meta.MetaConfigManifest=americas-army-285metaconfig.json
+Meta.MinAMPVersion=2.4.0.0
+Meta.ContainerPolicy=Supported
+Meta.ConfigReleaseState=NotSpecified
+Meta.NoCommercialUsage=False
+Meta.ConfigVersion=1
+Meta.AppConfigId=a5e1d3f0-aa28-4a00-b000-000000000002
+
 App.DisplayName=America's Army Operations 2.8.5
-App.RootDir=.
+App.RootDir=./americas-army-285/
+App.BaseDirectory=./americas-army-285/
 App.WorkingDir=System
 App.ExecutableWin=Server.exe
 App.ExecutableLinux=wine
 App.CommandLineArgs=cmd /c Server.exe {{ServerMode}} {{MapName}} log={{LogFile}} ini={{IniFile}}
-App.AppSettings={"MapName": "Pipeline.aao", "ServerMode": "LAN", "LogFile": "server.log", "IniFile": "server.ini"}
-App.HasWriteableConsole=false
-App.HasReadableConsole=true
+App.AppSettings={"MapName":"Pipeline.aao","ServerMode":"LAN","LogFile":"server.log","IniFile":"server.ini"}
 App.ExitMethod=Kill
+App.HasWriteableConsole=False
+App.HasReadableConsole=True
+App.AdminMethod=STDIO
+App.ApplicationIPBinding=0.0.0.0
 App.ApplicationPort1=1716
 App.MaxUsers=32
-App.AdminMethod=STDIO
-App.Compatibility=1
-App.UpdateSources=[{"UpdateStageName":"Download AA 2.8.5 Server","UpdateSourcePlatform":"All","UpdateSource":"FetchURL","UpdateSourceData":"https://github.com/demorgon989/amp-aa285/releases/download/aa285-server/aa285-server.zip","UnzipUpdateSource":true,"OverwriteExistingFiles":false}]
+App.UpdateSources=[{"UpdateStageName":"Download AAO 2.8.5 Server","UpdateSourcePlatform":"All","UpdateSource":"FetchURL","UpdateSourceData":"https://github.com/demorgon989/amp-aa285/releases/download/aa285-server/aa285-server.zip","UnzipUpdateSource":true,"OverwriteExistingFiles":false}]
+App.Compatibility=None
 
-[Console]
 Console.AppReadyRegex=^.*Listen.*$
-
-[Meta]
-Meta.DisplayName=America's Army Operations 2.8.5
-Meta.Author=demorgon989
-Meta.OS=2
-Meta.AppConfigId=a5e1d3f0-aa28-4a00-b000-000000000002
-Meta.URL=https://www.aao285.com/
-Meta.ContainerPolicy=NoPreference
-Meta.ConfigRoot=americas-army-285.kvp
-Meta.ConfigManifest=americas-army-285config.json
