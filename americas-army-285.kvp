@@ -15,10 +15,10 @@ Meta.ContainerPolicy=Supported
 Meta.SpecificDockerImage=cubecoders/ampbase:wine-stable
 Meta.ConfigReleaseState=NotSpecified
 Meta.NoCommercialUsage=False
-Meta.ConfigVersion=3
+Meta.ConfigVersion=4
 Meta.AppConfigId=0c21726b-1d01-487b-be54-7a185b81bfcf
 
-App.DisplayName=Americas Army 285
+App.DisplayName=Americas Army Ops
 App.RootDir=./americas-army-285/
 App.BaseDirectory=./americas-army-285/
 App.WorkingDir=System
@@ -27,6 +27,7 @@ App.ExecutableLinux=/usr/bin/wine
 App.CommandLineArgs={{$PlatformArgs}}
 App.WindowsCommandLineArgs={{ServerMode}} {{MapName}} log={{LogFile}} ini={{IniFile}} {{ExtraArgs}}
 App.LinuxCommandLineArgs=cmd /c Server.exe {{ServerMode}} {{MapName}} log={{LogFile}} ini={{IniFile}} {{ExtraArgs}}
+App.MonitorChildProcessName=^.*Server\.exe.*$
 App.AppSettings={"ServerMode":"LAN","MapName":"Pipeline.aao","IniFile":"server.ini","LogFile":"server.log","ExtraArgs":"","PlayerAdmin":""}
 App.AdminMethod=STDIO
 App.HasReadableConsole=True
