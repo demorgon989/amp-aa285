@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "ConfigFile": "System/server.ini",
+    "AutoMap": true,
+    "ConfigType": "ini"
+  }
+]
