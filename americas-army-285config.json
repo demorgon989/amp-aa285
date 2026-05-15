@@ -77,17 +77,32 @@
     "EnumValues": {}
   },
   {
-    "DisplayName": "Admin Setup Note",
+    "DisplayName": "Player Admin Password",
     "Category": "America's Army 2.8.5",
     "Subcategory": "Administration:shield:2",
-    "Description": "Player administrator entries in server.ini must use the format Name,Password. Blank entries cause harmless startup warnings.",
-    "Keywords": "admin,password,administrator,server.ini",
-    "FieldName": "AdminSetupNote",
-    "InputType": "hidden",
+    "Description": "Password used for Player Admin login. This writes to PlayerAdmin= in server.ini. To join as Player Admin, open the AAO console and use: start SERVERIP?PAPassword=YOURPASSWORD",
+    "Keywords": "player admin,password,papassword,admin",
+    "FieldName": "PlayerAdmin",
+    "InputType": "password",
     "IsFlagArgument": false,
-    "ParamFieldName": "AdminSetupNote",
+    "ParamFieldName": "PlayerAdmin",
     "IncludeInCommandLine": false,
-    "DefaultValue": "Edit server.ini and set player administrator entries as Name,Password.",
+    "DefaultValue": "",
+    "Placeholder": "YourPlayerAdminPassword",
+    "EnumValues": {}
+  },
+  {
+    "DisplayName": "Player Admin Connect Command",
+    "Category": "America's Army 2.8.5",
+    "Subcategory": "Administration:shield:2",
+    "Description": "Info only. In the AAO console, connect as Player Admin with: start SERVERIP?PAPassword=YOURPASSWORD. Example: start 192.168.50.23?PAPassword=MySecretPass",
+    "Keywords": "player admin,connect,papassword,example",
+    "FieldName": "PlayerAdminConnectCommand",
+    "InputType": "text",
+    "IsFlagArgument": false,
+    "ParamFieldName": "PlayerAdminConnectCommand",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "start SERVERIP?PAPassword=YOURPASSWORD",
     "EnumValues": {}
   }
 ]
