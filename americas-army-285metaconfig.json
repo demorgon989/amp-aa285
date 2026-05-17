@@ -5,6 +5,9 @@
     "Importable": true,
     "ConfigType": "ini",
     "ConfigFormat": "{0}={1}",
-    "ConfigFormatRegex": "^(?<key>.+?)=(?<value>.*?)$"
+    "ConfigFormatRegex": "^(?<key>.+?)=(?<value>.*?)$",
+    "ConfigFileMap": {
+      "GamePort": "URL.Port"
+    }
   }
 ]
