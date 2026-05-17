@@ -23,10 +23,10 @@ App.RootDir=./americas-army-285/
 App.BaseDirectory=./americas-army-285/
 App.WorkingDir=System
 App.ExecutableWin=Server.exe
-App.ExecutableLinux=/usr/bin/wine
+App.ExecutableLinux=/bin/bash
 App.CommandLineArgs={{$PlatformArgs}}
 App.WindowsCommandLineArgs=LAN {{MapName}} log={{LogFile}} ini={{IniFile}} {{ExtraArgs}}
-App.LinuxCommandLineArgs=Server.exe LAN {{MapName}} log={{LogFile}} ini={{IniFile}} {{ExtraArgs}}
+App.LinuxCommandLineArgs=./aao285_amp_launcher.sh LAN {{MapName}} log={{LogFile}} ini={{IniFile}} {{ExtraArgs}}
 App.MonitorChildProcessName=^.*Server\.exe.*$
 App.MonitorDirectChildOnly=False
 App.DumpFullChildProcessTree=True
@@ -45,3 +45,5 @@ App.Compatibility=None
 App.EnvironmentVariables={"WINEPREFIX":"{{$FullRootDir}}.wine","WINEARCH":"win64","WINEDEBUG":"-all"}
 App.Ports=@IncludeJson[americas-army-285ports.json]
 App.UpdateSources=@IncludeJson[americas-army-285updates.json]
+Console.UserJoinRegex=^DevNet:\d{8}:\d{6}:Joined:\d+:(?<username>.+)$
+Console.UserLeaveRegex=^DevNet:\d{8}:\d{6}:Left:(?<username>.+)$
