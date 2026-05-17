@@ -208,8 +208,8 @@
     "IsFlagArgument": false,
     "ParamFieldName": "URL.Port",
     "IncludeInCommandLine": false,
-    "DefaultValue": "1716",
-    "Placeholder": "",
+    "DefaultValue": "{{$GamePort}}",
+    "Placeholder": "1716",
     "EnumValues": {}
   }
 ]
