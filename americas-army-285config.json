@@ -206,7 +206,7 @@
     "FieldName": "GamePort",
     "InputType": "number",
     "IsFlagArgument": false,
-    "ParamFieldName": "ExtraArgs",
+    "ParamFieldName": "Port",
     "IncludeInCommandLine": false,
     "DefaultValue": "1716",
     "Placeholder": "",
