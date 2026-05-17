@@ -1,4 +1,4 @@
-Meta.DisplayName=Americas Army 25 Assist
+Meta.DisplayName=Americas Army 2.5 Assist
 Meta.Description=America's Army 2.5 / AAO25 Assist Dedicated Server
 Meta.OS=Windows, Linux
 Meta.Arch=x86_64
@@ -18,7 +18,7 @@ Meta.NoCommercialUsage=False
 Meta.ConfigVersion=1
 Meta.AppConfigId=7d6a73a7-4f2a-4d3c-9b3f-0c01f3c3a525
 
-App.DisplayName=Americas Army 25 Assist
+App.DisplayName=Americas Army 2.5 Assist
 App.RootDir=./americas-army-25/
 App.BaseDirectory=./americas-army-25/
 App.WorkingDir=System
