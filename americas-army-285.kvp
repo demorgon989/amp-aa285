@@ -26,7 +26,7 @@ App.ExecutableWin=Server.exe
 App.ExecutableLinux=/bin/bash
 App.CommandLineArgs={{$PlatformArgs}}
 App.WindowsCommandLineArgs=LAN {{MapName}} log={{LogFile}} ini={{IniFile}} {{ExtraArgs}}
-App.LinuxCommandLineArgs=./aao285_amp_launcher.sh LAN {{MapName}} log={{LogFile}} ini={{IniFile}} {{ExtraArgs}}
+App.LinuxCommandLineArgs=./aao285_amp_launcher.sh LAN {{MapName}} {{LogFile}} {{IniFile}} {{ExtraArgs}}
 App.MonitorChildProcessName=^.*Server\.exe.*$
 App.MonitorDirectChildOnly=False
 App.DumpFullChildProcessTree=True
