@@ -195,5 +195,16 @@
     "DefaultValue": "",
     "Placeholder": "",
     "EnumValues": {}
-  }
+  },
+  {
+  "DisplayName": "Game Port",
+  "Subcategory": "Advanced:terminal:2",
+  "Description": "Main AAO UDP game port. Default is 1716.",
+  "Keywords": "port,gameport,network",
+  "FieldName": "GamePort",
+  "InputType": "number",
+  "ParamFieldName": "GamePort",
+  "IncludeInCommandLine": false,
+  "DefaultValue": "1716"
+}
 ]
