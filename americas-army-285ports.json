@@ -5,40 +5,5 @@
     "Ref": "GamePort",
     "Name": "Game Port",
     "Description": "Main America's Army game port"
-  },
-  {
-    "Protocol": "UDP",
-    "Port": 1717,
-    "Ref": "GameQueryPort",
-    "Name": "Game Query Port",
-    "Description": "America's Army game query port"
-  },
-  {
-    "Protocol": "UDP",
-    "Port": 1718,
-    "Ref": "MasterQueryPort",
-    "Name": "Master Server Query Port",
-    "Description": "Legacy America's Army master server query port"
-  },
-  {
-    "Protocol": "UDP",
-    "Port": 8777,
-    "Ref": "UnrealQueryPort",
-    "Name": "Unreal Query Port",
-    "Description": "Legacy Unreal Tournament query port"
-  },
-  {
-    "Protocol": "UDP",
-    "Port": 27900,
-    "Ref": "GameSpyUdpPort",
-    "Name": "GameSpy UDP Port",
-    "Description": "Legacy GameSpy UDP query port"
-  },
-  {
-    "Protocol": "TCP",
-    "Port": 28910,
-    "Ref": "GameSpyTcpPort",
-    "Name": "GameSpy TCP Port",
-    "Description": "Legacy GameSpy TCP port"
   }
 ]
