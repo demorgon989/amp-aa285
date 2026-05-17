@@ -1,4 +1,4 @@
-Meta.DisplayName=Americas Army Ops
+Meta.DisplayName=Americas Army 2.8.5
 Meta.Description=Americas Army Operations 2.8.5 Dedicated Server
 Meta.OS=Windows, Linux
 Meta.Arch=x86_64
@@ -18,7 +18,7 @@ Meta.NoCommercialUsage=False
 Meta.ConfigVersion=7
 Meta.AppConfigId=0c21726b-1d01-487b-be54-7a185b81bfcf
 
-App.DisplayName=Americas Army Ops
+App.DisplayName=Americas Army 2.8.5
 App.RootDir=./americas-army-285/
 App.BaseDirectory=./americas-army-285/
 App.WorkingDir=System
