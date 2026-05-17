@@ -2,7 +2,7 @@
   {
     "DisplayName": "Map Name",
     "Category": "America's Army 2.8.5:military_tech",
-    "Subcategory": "Server Settings:server:1",
+    "Subcategory": "Server Settings:dns:1",
     "Description": "Map file to load on startup. Example: Pipeline.aao",
     "Keywords": "map,level,pipeline,bridge,insurgent camp",
     "FieldName": "MapName",
@@ -17,7 +17,7 @@
   {
     "DisplayName": "Server Name",
     "Category": "America's Army 2.8.5:military_tech",
-    "Subcategory": "Server Settings:server:1",
+    "Subcategory": "Server Settings:dns:1",
     "Description": "Name of the server shown in compatible server browsers.",
     "Keywords": "server,name,browser",
     "FieldName": "ServerName",
@@ -32,7 +32,7 @@
   {
     "DisplayName": "Short Server Name",
     "Category": "America's Army 2.8.5:military_tech",
-    "Subcategory": "Server Settings:server:1",
+    "Subcategory": "Server Settings:dns:1",
     "Description": "Short server name used by some third-party server browsers.",
     "Keywords": "server,short,name,browser",
     "FieldName": "ShortName",
@@ -47,7 +47,7 @@
   {
     "DisplayName": "Max Players",
     "Category": "America's Army 2.8.5:military_tech",
-    "Subcategory": "Server Settings:server:1",
+    "Subcategory": "Server Settings:dns:1",
     "Description": "Maximum number of players allowed on the server. The packaged server.ini default is 26. Some maps may be designed around fewer players.",
     "Keywords": "max,players,slots",
     "FieldName": "MaxPlayers",
@@ -63,7 +63,7 @@
   {
     "DisplayName": "Player Admin",
     "Category": "America's Army 2.8.5:military_tech",
-    "Subcategory": "Server Settings:server:1",
+    "Subcategory": "Server Settings:dns:1",
     "Description": "Optional player admin entry. Use Name,Password. Example: Demorgon,MySecretPass. To connect as player admin, open the AAO console and use: start SERVERIP?PAPassword=MySecretPass. Additional player admins can be added manually in System/server.ini with extra PlayerAdmin=Name,Password lines.",
     "Keywords": "player admin,password,papassword,admin",
     "FieldName": "PlayerAdmin",
