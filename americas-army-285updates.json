@@ -3,7 +3,7 @@
     "UpdateStageName": "Download AAO 2.8.5 Server",
     "UpdateSourcePlatform": "All",
     "UpdateSource": "FetchURL",
-    "UpdateSourceData": "https://github.com/demorgon989/amp-aa285/releases/download/aa285-server/aa285-server.zip",
+    "UpdateSourceData": "https://github.com/demorgon989/AMPTemplates/releases/download/aa285-server/aa285-server.zip",
     "UnzipUpdateSource": true,
     "OverwriteExistingFiles": false
   }
