@@ -1,7 +1,7 @@
 [
   {
     "DisplayName": "Map Name",
-    "Category": "America's Army 2.8.5:stadia_controller",
+    "Category": "America's Army 2.8.5:military_tech",
     "Subcategory": "Server Settings:server:1",
     "Description": "Map file to load on startup. Example: Pipeline.aao",
     "Keywords": "map,level,pipeline,bridge,insurgent camp",
@@ -16,7 +16,7 @@
   },
   {
     "DisplayName": "Server Name",
-    "Category": "America's Army 2.8.5:stadia_controller",
+    "Category": "America's Army 2.8.5:military_tech",
     "Subcategory": "Server Settings:server:1",
     "Description": "Name of the server shown in compatible server browsers.",
     "Keywords": "server,name,browser",
@@ -31,7 +31,7 @@
   },
   {
     "DisplayName": "Short Server Name",
-    "Category": "America's Army 2.8.5:stadia_controller",
+    "Category": "America's Army 2.8.5:military_tech",
     "Subcategory": "Server Settings:server:1",
     "Description": "Short server name used by some third-party server browsers.",
     "Keywords": "server,short,name,browser",
@@ -46,7 +46,7 @@
   },
   {
     "DisplayName": "Max Players",
-    "Category": "America's Army 2.8.5:stadia_controller",
+    "Category": "America's Army 2.8.5:military_tech",
     "Subcategory": "Server Settings:server:1",
     "Description": "Maximum number of players allowed on the server. The packaged server.ini default is 26. Some maps may be designed around fewer players.",
     "Keywords": "max,players,slots",
@@ -62,7 +62,7 @@
   },
   {
     "DisplayName": "Player Admin",
-    "Category": "America's Army 2.8.5:stadia_controller",
+    "Category": "America's Army 2.8.5:military_tech",
     "Subcategory": "Server Settings:server:1",
     "Description": "Optional player admin entry. Use Name,Password. Example: Demorgon,MySecretPass. To connect as player admin, open the AAO console and use: start SERVERIP?PAPassword=MySecretPass. Additional player admins can be added manually in System/server.ini with extra PlayerAdmin=Name,Password lines.",
     "Keywords": "player admin,password,papassword,admin",
@@ -77,7 +77,7 @@
   },
 {
   "DisplayName": "MOTD Display Time",
-  "Category": "America's Army 2.8.5:stadia_controller",
+  "Category": "America's Army 2.8.5:military_tech",
   "Subcategory": "Message of the Day:comment:2",
   "Description": "How long, in seconds, the message of the day is displayed to joining players.",
   "Keywords": "motd,message,display,time,seconds",
@@ -93,7 +93,7 @@
 },
   {
   "DisplayName": "MOTD Line 1",
-  "Category": "America's Army 2.8.5:stadia_controller",
+  "Category": "America's Army 2.8.5:military_tech",
   "Subcategory": "Message of the Day:comment:2",
   "Description": "Message of the day line 1 shown to players when they join.",
   "Keywords": "motd,message,welcome",
@@ -108,7 +108,7 @@
 },
 {
   "DisplayName": "MOTD Line 2",
-  "Category": "America's Army 2.8.5:stadia_controller",
+  "Category": "America's Army 2.8.5:military_tech",
   "Subcategory": "Message of the Day:comment:2",
   "Description": "Message of the day line 2 shown to players when they join.",
   "Keywords": "motd,message,welcome",
@@ -123,7 +123,7 @@
 },
 {
   "DisplayName": "MOTD Line 3",
-  "Category": "America's Army 2.8.5:stadia_controller",
+  "Category": "America's Army 2.8.5:military_tech",
   "Subcategory": "Message of the Day:comment:2",
   "Description": "Message of the day line 3 shown to players when they join.",
   "Keywords": "motd,message,welcome",
@@ -138,7 +138,7 @@
 },
 {
   "DisplayName": "MOTD Line 4",
-  "Category": "America's Army 2.8.5:stadia_controller",
+  "Category": "America's Army 2.8.5:military_tech",
   "Subcategory": "Message of the Day:comment:2",
   "Description": "Message of the day line 4 shown to players when they join.",
   "Keywords": "motd,message,welcome",
@@ -153,7 +153,7 @@
 },
   {
     "DisplayName": "INI File",
-    "Category": "America's Army 2.8.5:stadia_controller",
+    "Category": "America's Army 2.8.5:military_tech",
     "Subcategory": "Advanced:terminal:2",
     "Description": "Server INI file to use. Keep this as server.ini unless you created another INI.",
     "Keywords": "ini,config,server.ini",
@@ -168,7 +168,7 @@
   },
   {
     "DisplayName": "Log File",
-    "Category": "America's Army 2.8.5:stadia_controller",
+    "Category": "America's Army 2.8.5:military_tech",
     "Subcategory": "Advanced:terminal:2",
     "Description": "Log file written by the AAO server.",
     "Keywords": "log,file,server.log",
@@ -183,7 +183,7 @@
   },
   {
     "DisplayName": "Extra Startup Arguments",
-    "Category": "America's Army 2.8.5:stadia_controller",
+    "Category": "America's Army 2.8.5:military_tech",
     "Subcategory": "Advanced:terminal:2",
     "Description": "Optional extra arguments appended to the Server.exe command line. Leave blank unless troubleshooting.",
     "Keywords": "extra,args,arguments,advanced",
@@ -199,7 +199,7 @@
 
   {
     "DisplayName": "Game Port",
-    "Category": "America's Army 2.8.5:stadia_controller",
+    "Category": "America's Army 2.8.5:military_tech",
     "Subcategory": "Advanced:terminal:2",
     "Description": "Main AAO UDP game port. Default is 1716.",
     "Keywords": "port,gameport,network",
