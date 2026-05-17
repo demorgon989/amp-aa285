@@ -1,0 +1,11 @@
+[
+  {
+    "UpdateStageName": "Download AAO25 Server Files",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://github.com/demorgon989/AMPTemplates/releases/download/aa25-server/aa25-server.zip",
+    "UpdateSourceTarget": "{{$FullBaseDir}}",
+    "UnzipUpdateSource": true,
+    "OverwriteExistingFiles": true
+  }
+]

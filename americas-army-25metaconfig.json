@@ -1,0 +1,44 @@
+[
+  {
+    "ConfigFile": "./System/aa25.ini",
+    "ConfigType": "kvp",
+    "ConfigFormat": "{0}={1}",
+    "Subsections": [
+      {
+        "Heading": "$root",
+        "SettingMappings": {
+          "port": "port",
+          "multihome": "multihome",
+          "processid": "processid",
+          "servername": "servername",
+          "adminpassword": "adminpassword",
+          "gamepassword": "gamepassword",
+          "playerslots": "playerslots",
+          "roundsmatch": "roundsmatch",
+          "roundlength": "roundlength",
+          "motd1": "motd1",
+          "motd2": "motd2",
+          "motd3": "motd3",
+          "colour": "colour",
+          "adminname": "adminname",
+          "adminemail": "adminemail",
+          "repeatmessage": "repeatmessage",
+          "repeatminutes": "repeatminutes",
+          "enablecycling": "enablecycling",
+          "cyclematches": "cyclematches",
+          "forcecycle": "forcecycle",
+          "forceminutes": "forceminutes",
+          "hackhunter": "hackhunter",
+          "pbscreenshots": "pbscreenshots",
+          "weaponforcer": "weaponforcer",
+          "forceweapon": "forceweapon",
+          "damagemessages": "damagemessages",
+          "miles": "miles",
+          "cheats": "cheats",
+          "restartmap": "restartmap",
+          "punkbuster": "punkbuster"
+        }
+      }
+    ]
+  }
+]

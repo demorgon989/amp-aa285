@@ -1,0 +1,16 @@
+[
+  {
+    "Protocol": "UDP",
+    "Port": "1716",
+    "Ref": "port",
+    "Name": "Game Port",
+    "Description": "Main AAO25 game port."
+  },
+  {
+    "Protocol": "UDP",
+    "Port": "1717",
+    "Ref": "queryport",
+    "Name": "Query Port",
+    "Description": "AAO25 query/secondary port."
+  }
+]
