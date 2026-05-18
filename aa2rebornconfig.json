@@ -30,6 +30,21 @@
     "EnumValues": {}
   },
   {
+    "DisplayName": "Auth Port",
+    "Category": "AA2Reborn:military_tech",
+    "Subcategory": "AA2Reborn Auth:lock:1",
+    "Description": "Must match your Game Port. This tells the AA2Reborn auth server which port your game is running on.",
+    "Keywords": "port,auth,aa2reborn,authport",
+    "FieldName": "AuthPort",
+    "InputType": "number",
+    "IsFlagArgument": false,
+    "ParamFieldName": "AA2Reborn_Auth.AA_ServerConfig.Port",
+    "IncludeInCommandLine": false,
+    "DefaultValue": "1716",
+    "Placeholder": "1716",
+    "EnumValues": {}
+  },
+  {
     "DisplayName": "Map Name",
     "Category": "AA2Reborn:military_tech",
     "Subcategory": "Server Settings:dns:2",
@@ -230,7 +245,7 @@
     "DisplayName": "Game Port",
     "Category": "AA2Reborn:military_tech",
     "Subcategory": "Advanced:terminal:4",
-    "Description": "Main AAO UDP game port. Default is 1716.",
+    "Description": "Main AAO UDP game port. Default is 1716. Make sure Auth Port matches this value.",
     "Keywords": "port,gameport,network",
     "FieldName": "GamePort",
     "InputType": "number",
