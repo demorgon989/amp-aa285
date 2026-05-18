@@ -1,0 +1,10 @@
+[
+  {
+    "UpdateStageName": "Download AA2Reborn Bootstrap",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://github.com/demorgon989/AMPTemplates/releases/download/aa2reborn/aa2reborn-bootstrap.zip",
+    "UnzipUpdateSource": true,
+    "OverwriteExistingFiles": false
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "Protocol": "UDP",
+    "Port": 1716,
+    "Ref": "GamePort",
+    "Name": "Game Port",
+    "Description": "Main AA2Reborn game port"
+  },
+  {
+    "Protocol": "TCP",
+    "Port": 1717,
+    "Ref": "QueryPort",
+    "Name": "Query Port",
+    "Description": "AA2Reborn query port (game port +1)"
+  }
+]

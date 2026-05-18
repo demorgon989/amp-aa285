@@ -1,0 +1,15 @@
+[
+  {
+    "ConfigFile": "System/server.ini",
+    "AutoMap": true,
+    "Importable": true,
+    "ConfigType": "ini",
+    "ConfigFormat": "{0}={1}",
+    "ConfigFormatRegex": "^(?<key>.+?)=(?<value>.*?)$",
+    "ConfigFileMap": {
+      "GamePort": "URL.Port",
+      "ServerSecret": "AA2Reborn_Auth.AA_ServerConfig.ServerSecret",
+      "ExternalIP": "AA2Reborn_Auth.AA_ServerConfig.ExternalIP"
+    }
+  }
+]
