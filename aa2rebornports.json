@@ -12,7 +12,5 @@
     "Ref": "QueryPort",
     "Name": "Query Port",
     "Description": "AA2Reborn query port (game port +1)",
-    "PortOffset": 1,
-    "PortRef": "GamePort"
   }
 ]
