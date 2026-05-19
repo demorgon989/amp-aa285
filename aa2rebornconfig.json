@@ -258,7 +258,7 @@
   },
   {
     "DisplayName": "Weapon Mode: Normal",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Weapon Mode:sports_martial_arts:1",
     "Description": "Players use their default assigned class weapons. Standard gameplay mode. Only enable one Weapon Mode at a time. (0 = off, 1 = on)",
     "Keywords": "weapon,normal,default,class",
@@ -274,7 +274,7 @@
   },
   {
     "DisplayName": "Weapon Mode: Pick Weapon",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Weapon Mode:sports_martial_arts:1",
     "Description": "Players can choose their own weapon at spawn. Only enable one Weapon Mode at a time. (0 = off, 1 = on)",
     "Keywords": "weapon,pick,choose,select",
@@ -290,7 +290,7 @@
   },
   {
     "DisplayName": "Weapon Mode: Random Weapons",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Weapon Mode:sports_martial_arts:1",
     "Description": "Each player spawns with a different random weapon. Only enable one Weapon Mode at a time. (0 = off, 1 = on)",
     "Keywords": "weapon,random,different",
@@ -306,7 +306,7 @@
   },
   {
     "DisplayName": "Weapon Mode: Random Weapons (Same)",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Weapon Mode:sports_martial_arts:1",
     "Description": "All players spawn with the same randomly selected weapon each round. Only enable one Weapon Mode at a time. (0 = off, 1 = on)",
     "Keywords": "weapon,random,same,all",
@@ -322,7 +322,7 @@
   },
   {
     "DisplayName": "Weapon Mode: Random Snipers",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Weapon Mode:sports_martial_arts:1",
     "Description": "Each player spawns with a different random sniper class. Only enable one Weapon Mode at a time. (0 = off, 1 = on)",
     "Keywords": "weapon,random,sniper,different",
@@ -338,7 +338,7 @@
   },
   {
     "DisplayName": "Weapon Mode: Random Snipers (Same)",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Weapon Mode:sports_martial_arts:1",
     "Description": "All players spawn with the same randomly selected sniper class each round. Only enable one Weapon Mode at a time. (0 = off, 1 = on)",
     "Keywords": "weapon,random,sniper,same",
@@ -354,7 +354,7 @@
   },
   {
     "DisplayName": "Weapon Mode: Random Guerrilla",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Weapon Mode:sports_martial_arts:1",
     "Description": "Each player spawns with a random guerrilla class weapon. Only enable one Weapon Mode at a time. (0 = off, 1 = on)",
     "Keywords": "weapon,random,guerrilla,opfor",
@@ -370,7 +370,7 @@
   },
   {
     "DisplayName": "Weapon Mode: Custom Class",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Weapon Mode:sports_martial_arts:1",
     "Description": "Uses the custom class list defined in the [Custom] section of Ultimate.ini. Only enable one Weapon Mode at a time. (0 = off, 1 = on)",
     "Keywords": "weapon,custom,class,list",
@@ -386,7 +386,7 @@
   },
   {
     "DisplayName": "Weapon Mode: Custom Class (Same)",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Weapon Mode:sports_martial_arts:1",
     "Description": "All players spawn with the same weapon from the custom class list. Only enable one Weapon Mode at a time. (0 = off, 1 = on)",
     "Keywords": "weapon,custom,class,same",
@@ -402,7 +402,7 @@
   },
   {
     "DisplayName": "Force Weapon Class",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Weapon Mode:sports_martial_arts:1",
     "Description": "Forces all players to use a specific weapon class. Only active when all Weapon Mode toggles above are set to 0. Example: AGP_Characters.ClassRifleman",
     "Keywords": "weapon,force,class,single",
@@ -417,7 +417,7 @@
   },
   {
     "DisplayName": "Respawn",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Gameplay Settings:settings:2",
     "Description": "Allows players to respawn after being killed instead of waiting for the next round. (0 = off, 1 = on)",
     "Keywords": "respawn,revive,spawn",
@@ -433,7 +433,7 @@
   },
   {
     "DisplayName": "Disable Objectives",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Gameplay Settings:settings:2",
     "Description": "Disables map objectives. Players focus on eliminating the opposing team rather than completing tasks. (0 = off, 1 = on)",
     "Keywords": "objective,disable,deathmatch",
@@ -449,7 +449,7 @@
   },
   {
     "DisplayName": "Killing Spree Messages",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Gameplay Settings:settings:2",
     "Description": "Announces killing sprees to all players when a player gets multiple kills in a row. (0 = off, 1 = on)",
     "Keywords": "killing spree,kills,announce,streak",
@@ -465,7 +465,7 @@
   },
   {
     "DisplayName": "Headshot Messages",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Gameplay Settings:settings:2",
     "Description": "Displays a custom message to all players when a headshot kill is made. (0 = off, 1 = on)",
     "Keywords": "headshot,message,kill,announce",
@@ -481,7 +481,7 @@
   },
   {
     "DisplayName": "Respawn on Team Kill",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Gameplay Settings:settings:2",
     "Description": "Respawns the victim of a team kill immediately instead of making them wait for the next round. (0 = off, 1 = on)",
     "Keywords": "teamkill,respawn,friendly fire",
@@ -497,7 +497,7 @@
   },
   {
     "DisplayName": "Regenerate Health",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Gameplay Settings:settings:2",
     "Description": "Players slowly regenerate health over time instead of staying at their injured health value. (0 = off, 1 = on)",
     "Keywords": "regenerate,health,regen,heal",
@@ -513,7 +513,7 @@
   },
   {
     "DisplayName": "Unlimited Ammo",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Gameplay Settings:settings:2",
     "Description": "Players have unlimited reserve ammo and never run out of magazines. (0 = off, 1 = on)",
     "Keywords": "ammo,unlimited,infinite",
@@ -529,7 +529,7 @@
   },
   {
     "DisplayName": "Unlimited Clip Ammo",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Gameplay Settings:settings:2",
     "Description": "Players have unlimited ammo within each magazine and never need to reload. (0 = off, 1 = on)",
     "Keywords": "ammo,clip,unlimited,infinite,reload",
@@ -545,7 +545,7 @@
   },
   {
     "DisplayName": "Unlimited Aux Ammo",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Gameplay Settings:settings:2",
     "Description": "Players have unlimited auxiliary ammo (grenades, launcher rounds, etc.). (0 = off, 1 = on)",
     "Keywords": "ammo,aux,grenades,unlimited,launcher",
@@ -561,7 +561,7 @@
   },
   {
     "DisplayName": "Auto Reload",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Gameplay Settings:settings:2",
     "Description": "Automatically reloads a player's weapon when the magazine runs empty. (0 = off, 1 = on)",
     "Keywords": "reload,auto,ammo,magazine",
@@ -577,7 +577,7 @@
   },
   {
     "DisplayName": "Delete M9",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Gameplay Settings:settings:2",
     "Description": "Removes the M9 pistol from all players at spawn. (0 = off, 1 = on)",
     "Keywords": "m9,pistol,delete,remove",
@@ -593,7 +593,7 @@
   },
   {
     "DisplayName": "Delete Grenades",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Gameplay Settings:settings:2",
     "Description": "Removes grenades from all players at spawn. (0 = off, 1 = on)",
     "Keywords": "grenades,delete,remove,nades",
@@ -609,7 +609,7 @@
   },
   {
     "DisplayName": "Delete Ammo Pickups",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Gameplay Settings:settings:2",
     "Description": "Removes ammo pickup items from the map. (0 = off, 1 = on)",
     "Keywords": "ammo,pickup,delete,remove,map",
@@ -625,7 +625,7 @@
   },
   {
     "DisplayName": "Delete Doors",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Gameplay Settings:settings:2",
     "Description": "Removes all doors from the map. Players can move freely through doorways without breaching. (0 = off, 1 = on)",
     "Keywords": "doors,delete,remove,breach",
@@ -641,7 +641,7 @@
   },
   {
     "DisplayName": "Suppress Admin Messages",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Gameplay Settings:settings:2",
     "Description": "Hides Ultimate Mod admin action messages from players when an admin uses a mutate command. (0 = off, 1 = on)",
     "Keywords": "admin,message,suppress,hide,mutate",
@@ -657,7 +657,7 @@
   },
   {
     "DisplayName": "Jump Height",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Physics:speed:3",
     "Description": "Controls how high players can jump. Default is 400. Higher values allow bigger jumps.",
     "Keywords": "jump,height,physics,movement",
@@ -673,7 +673,7 @@
   },
   {
     "DisplayName": "Gravity",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Physics:speed:3",
     "Description": "Controls server gravity. Default is 1500. Lower values produce floatier movement, higher values pull players down faster.",
     "Keywords": "gravity,physics,movement,fall",
@@ -689,7 +689,7 @@
   },
   {
     "DisplayName": "Welcome Message",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Messages:comment:4",
     "Description": "Message displayed to players when they join the server. Use %Player% to insert the player's name.",
     "Keywords": "welcome,message,join,player",
@@ -704,7 +704,7 @@
   },
   {
     "DisplayName": "Use Honor System",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Honor:military_tech:5",
     "Description": "Enables the AA honor/server type system. Disable if you do not want a server badge displayed. (0 = off, 1 = on)",
     "Keywords": "honor,badge,server type,official",
@@ -720,7 +720,7 @@
   },
   {
     "DisplayName": "Honor / Server Type",
-    "Category": "Ultimate Mod:military_tech",
+    "Category": "Ultimate Mod:admin_panel_settings",
     "Subcategory": "Honor:military_tech:5",
     "Description": "Sets the server badge type shown in the browser. Note: Official server types do not allow admins.",
     "Keywords": "honor,badge,official,leased,dev,nato",
