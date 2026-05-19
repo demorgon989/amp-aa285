@@ -85,7 +85,6 @@ Americas Army: Operations 2.8.5 server. Runs under Wine via Docker.
 | Port | Protocol | Purpose |
 |---|---|---|
 | 1716 | UDP | Game port |
-| 1717 | UDP | Query port |
 
 ---
 
